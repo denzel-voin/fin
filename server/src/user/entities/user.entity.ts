@@ -7,7 +7,7 @@ export class User {
 	@PrimaryGeneratedColumn()
 	id: number;
 	@Column()
-	name: string;
+	email: string;
 	@Column()
 	password: string;
 	@CreateDateColumn()
